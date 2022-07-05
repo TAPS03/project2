@@ -1,7 +1,6 @@
 from application import app
-from flask import Flask, request, render_template, url_for
+from flask import Flask, request, render_template
 import requests, json
-
 
 
 @app.route('/')
