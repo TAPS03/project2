@@ -11,5 +11,5 @@ In this project, a variety of different services have been used in order to make
 To plan my project, I have used Trello Board to create a list of actions that need to be done.
 
 <p align= "centre">
-        <img width="700" height="100" src="images/trello.PNG">
+        <img width="700" height="100" src="Pictures/trello.PNG">
 
