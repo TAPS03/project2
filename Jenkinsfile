@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Ansible Playbook run'){
             steps{
-                sh "'ansible-playbook -i ansible-config/inventory.yaml ansible-config/playbook1.yaml'"
+                sh "ansible-playbook -i ansible-config/inventory.yaml ansible-config/playbook1.yaml"
             }
         }
         stage('Building and pushing images'){
