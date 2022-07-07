@@ -8,8 +8,12 @@ In this project, a variety of different services have been used in order to make
 
 ## Planning:
 
-To plan my project, I have used Trello Board to create a list of actions that need to be done.
+To plan my project, I have used Trello Board to create a list of actions that need to be done. This was very beneficial as it helped me keep track of what im doing and what i have left to do.
 
 <p align= "centre">
-        <img width="600" height="300" src="images/trello.PNG">
+        <img width="600" height="300" src="images/trello_1.PNG">
 
+After the Planning has been made, a risk assessment was crutial to be carried out as I needed to know what could impact my project negatively. I have described the scenario that could occur along  with the impact level and who would be responsible for the result. Below I have displayed my risk assessment of my project...
+
+<p align= "centre">
+        <img width="600" height="300" src="images/risk.PNG">
