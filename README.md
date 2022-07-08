@@ -52,3 +52,34 @@ When the app is run and everything has been generated, this is what the resultin
 
 Testing was crutial as it would check that everything was functional and that there arent any errors in the code. I had tests made from each of the four services and the coverage is 100% for each one of them. The results of the tests are shown below:
 
+<p align= "centre">
+        <img width="400" height="300" src="images/test1.PNG">
+
+<p align= "centre">
+        <img width="400" height="300" src="images/test2.PNG">
+
+<p align= "centre">
+        <img width="400" height="300" src="images/test3.PNG">
+
+<p align= "centre">
+        <img width="400" height="300" src="images/test4.PNG">
+
+My tests were taken from the console output on Jenkins and as you can see in services 1-3 i was able to get the coverage to 100% first try but with service 4 i have to test a couple times and add more tests to it for the coverage to be at 100%.
+
+## Pipeline
+
+For my pipeline, I have used Jenkins to build a variety of steps so that my app can be deployed properly. I have linked my Jenkins to the app i am working on and have created a webhook which will automatically run the builds to make sure everything is still functional after each change. From the picture below, you can see that it took me many attempts to get my Jenkins build running but in the end, i was able to get everything working. 
+
+<p align= "centre">
+        <img width="400" height="300" src="images/jenkins.PNG">
+
+There are multiple steps that the pipeline does in order to make sure everything is working how it is intended. Firsly, it would run my app tests that I have implemented. Following up with Running my ansible playbook, building my images and pushing then. Finally, the images get run and start to function. Ansible was able to run successfully as I have been able to connect it to the swarm manager and swarm worker and you can see by the picture below that ansible was able to connect to each of them and ping them:
+
+<p align= "centre">
+        <img width="400" height="300" src="images/ansible screenshot.PNG">
+
+
+## Conclusion:
+
+In conclusion, it was a very interesting and fun project along with some challenges that got me thinking about what the problem could be but also from the help of my trainer and fellow friends, I was able to get everything up and running for my app. While discussing this, I am constantly updating my app to make it more efficient and more eye appealing for the user. Thank you
+
