@@ -30,17 +30,17 @@ My service 1 receives objects from the other services and then generates a rende
 My service 2 generates a random gun from a list I have created. The list is involving different types of guns: 
 
 <p align= "centre">
-        <img width="800" height="300" src="images/service_2.PNG">
+        <img width="600" height="300" src="images/service_2.PNG">
 
 My service 3 also generates an object but instead of a gun, it now generates a body part where the bullet will shoot. Below you can see the service 3 and what body parts i have included in the list:
 
 <p align= "centre">
-        <img width="800" height="300" src="images/service_3.PNG">
+        <img width="600" height="300" src="images/service_3.PNG">
 
 In my service 4, it would create the damage dealt from the objects that were generated and from the numbers I have assigned to each object, which would then calculate the resulting damage :
 
 <p align= "centre">
-        <img width="300" height="700" src="images/service_4.PNG">
+        <img width="300" height="500" src="images/service_4.PNG">
 
 
 When the app is run and everything has been generated, this is what the resulting web page will look like from a viewers point of view: 
@@ -53,16 +53,16 @@ When the app is run and everything has been generated, this is what the resultin
 Testing was crutial as it would check that everything was functional and that there arent any errors in the code. I had tests made from each of the four services and the coverage is 100% for each one of them. The results of the tests are shown below:
 
 <p align= "centre">
-        <img width="400" height="300" src="images/test1.PNG">
+        <img width="400" height="50" src="images/test1.PNG">
 
 <p align= "centre">
-        <img width="400" height="300" src="images/test2.PNG">
+        <img width="400" height="50" src="images/test2.PNG">
 
 <p align= "centre">
-        <img width="400" height="300" src="images/test3.PNG">
+        <img width="400" height="50" src="images/test3.PNG">
 
 <p align= "centre">
-        <img width="400" height="300" src="images/test4.PNG">
+        <img width="400" height="100" src="images/test4.PNG">
 
 My tests were taken from the console output on Jenkins and as you can see in services 1-3 i was able to get the coverage to 100% first try but with service 4 i have to test a couple times and add more tests to it for the coverage to be at 100%.
 
@@ -76,7 +76,7 @@ For my pipeline, I have used Jenkins to build a variety of steps so that my app 
 There are multiple steps that the pipeline does in order to make sure everything is working how it is intended. Firsly, it would run my app tests that I have implemented. Following up with Running my ansible playbook, building my images and pushing then. Finally, the images get run and start to function. Ansible was able to run successfully as I have been able to connect it to the swarm manager and swarm worker and you can see by the picture below that ansible was able to connect to each of them and ping them:
 
 <p align= "centre">
-        <img width="400" height="300" src="images/ansible screenshot.PNG">
+        <img width="400" height="300" src="images/ansible.PNG">
 
 
 ## Conclusion:
