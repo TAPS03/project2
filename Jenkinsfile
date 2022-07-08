@@ -20,6 +20,13 @@ pipeline{
                 sh "docker-compose build --parallel"
                 sh "docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD"
                 sh "docker-compose push"
+
+        
+            }
+        }
+        stage('Run docker compose '){
+            steps{
+                sh "docker-compose up"
             }
         }
     }
