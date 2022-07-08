@@ -46,7 +46,7 @@ In my service 4, it would create the damage dealt from the objects that were gen
 When the app is run and everything has been generated, this is what the resulting web page will look like from a viewers point of view: 
 
 <p align= "centre">
-        <img width="400" height="300" src="images/result.PNG">
+        <img width="400" height="300" src="images/result.png">
 
 ## Testing
 
