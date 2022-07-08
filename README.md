@@ -46,7 +46,7 @@ In my service 4, it would create the damage dealt from the objects that were gen
 When the app is run and everything has been generated, this is what the resulting web page will look like from a viewers point of view: 
 
 <p align= "centre">
-        <img width="400" height="300" src="images/result.png">
+        <img width="400" height="300" src="images/result.PNG">
 
 ## Testing
 
@@ -76,7 +76,7 @@ For my pipeline, I have used Jenkins to build a variety of steps so that my app 
 There are multiple steps that the pipeline does in order to make sure everything is working how it is intended. Firsly, it would run my app tests that I have implemented. Following up with Running my ansible playbook, building my images and pushing then. Finally, the images get run and start to function. Ansible was able to run successfully as I have been able to connect it to the swarm manager and swarm worker and you can see by the picture below that ansible was able to connect to each of them and ping them:
 
 <p align= "centre">
-        <img width="400" height="300" src="images/ansible.PNG">
+        <img width="400" height="300" src="images/ansible.png">
 
 
 ## Conclusion:
